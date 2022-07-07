@@ -1,0 +1,29 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/62bb1e9e61f9c158244b91f2
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Nur Zarafina Baharuddin",
+    "email": "ummu faqih.ict1487@gmail.com",
+    "gender": "Female"
+}
+
+###
+
+PUT http://localhost:5000/users/62bb25e260925cbf6175c343
+Content-Type: application/json
+
+{
+    "name": "Nur Zarafina Bintu Baharuddin Mallimpo",
+    "email": "fina.ict1487@gmail.com",
+    "gender": "Female"
+}
+
+###
+DELETE   http://localhost:5000/users/62bbf57d6ceb92fd805b7745
+
