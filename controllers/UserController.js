@@ -63,6 +63,3 @@ export async function deleteUser(req, res){
   }
 
 }
-
-
-// export default deleteUser
